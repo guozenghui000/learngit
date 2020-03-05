@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    font: 20px;
+    color: chartreuse;
+    background-color: goldenrod;
+    border: grey;
+    height:200px;
+    width: 500px;
+    visibility: visible ;
+}
+a:link{
+
+    color: lightskyblue;
+}
+a:visited{
+    color: lime;
+}
+::first-letter{
+    color: magenta;
+}
+::selection{
+    color: orangered;
+}
+#time{
+    color:rgb(236, 6, 6)
+}
+#road{
+    color: brown;
+}
+.l{
+    text-align: left;
+}
+@media screen and (max-width: 300px) {
+    body {
+        background-color:lightblue;
+    }
+}
+@media screen and (max-width: 300px) {
+    body {
+        text-align:left;
+    }
+}
